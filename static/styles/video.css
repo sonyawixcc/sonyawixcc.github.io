@@ -1,0 +1,43 @@
+.bg-video {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-video video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.text-video {
+    z-index: 2;
+    color: rgb(42, 71, 82)
+}
+ .efeect {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+} 
+h1 {
+    color: rgb(58, 136, 167)
+}
+.adres-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px;
+    border-style:dashed;
+    border-color: rgb(96, 98, 204);
+    color: rgb(58, 136, 167)
+}
